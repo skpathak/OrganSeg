@@ -39,7 +39,7 @@
     
         // Use Promise.all to wait for all models to load
         Promise.all([
-            loadPLY('models/artery_kidney.ply', 0.3, [0.612, 0.612, 0.612]),
+            loadPLY('models/artery_kidney.ply', 0.5, [0.871, 0.165, 0.224]),
             loadPLY('models/tumor.ply', 0.75, [0.294, 0.922, 0.557]),
         ]).then(() => {
             renderer.resetCamera(); // Adjust camera after all models are loaded
